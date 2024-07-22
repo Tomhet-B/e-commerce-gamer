@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFS</title>
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Link Styles homepage -->
+    <link rel="stylesheet" href="assets/styles/homepage.css" >
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">FullStack Fusion</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Productos</a>
+                </li>            
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HomePage Section -->
+    <section id="homepage">
+        <div class="container text-center text-white">
+            <h1 class="display-4">Los Mejores Periféricos Gamer</h1>
+            <p class="lead">Experimenta la calidad y el rendimiento de otro nivel</p>
+            <a href="#products" class="btn btn-primary btn-lg">Ver Productos</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Nuestros Productos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="assets/img/homepage/keyboard.jpg" class="card-img-top" alt="Teclado Gamer">
+                        <div class="card-body">
+                            <h5 class="card-title">Teclado Gamer</h5>
+                            <p class="card-text">Espectacular teclado mecánico con retroiluminación RGB.</p>
+                            <a href="https://buy.stripe.com/test_eVadRvc3GfEI00MbIJ" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="assets/img/homepage/mouse.jpg" class="card-img-top" alt="Mouse Gamer">
+                        <div class="card-body">
+                            <h5 class="card-title">Mouse Gamer</h5>
+                            <p class="card-text">Mouse óptico con alta precisión y botones programables.</p>
+                            <a href="https://buy.stripe.com/test_eVadRvc3GfEI00MbIJ" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="assets/img/homepage/headphones.jpg" class="card-img-top" alt="Auriculares Gamer">
+                        <div class="card-body">
+                            <h5 class="card-title">Auriculares Gamer</h5>
+                            <p class="card-text">Sonido envolvente 7.1 para una experiencia inmersiva.</p>
+                            <a href="https://buy.stripe.com/test_eVadRvc3GfEI00MbIJ" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center">Contáctanos</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <p>&copy; 2024 FullStack Fusion. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

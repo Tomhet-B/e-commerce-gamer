@@ -1,0 +1,3 @@
+- Para el proyecto backend use el comando npm install para instalar todos los modulos requeridos para su correcto funcionamiento.
+- Para ejecutar el proyecto use el comando npm run dev.
+- No olvide cambiar las variables de entorno de la bd por las que  tiene en su ambiente.

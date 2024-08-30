@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/cart.css">
+  	<script src="./js/cartService.js" defer></script>
+	<script src="./js/cart.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<title>FSF</title>
+</head>
+<body>
+  <header>
+		<nav>
+			<a href="#"><img src="./img/logo.png" alt="Logo" id="logo"></a>
+			<div>
+				<a href="#">Inicio</a>
+				<a href="./product.html">Productos</a>
+				<a href="./about-us.html">Nosotros</a>
+				<a href="./cart.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<p id="carrito-vacio">Ups! No hay productos en el carrito. <a href="./product.html">Agrega algunos</a></p>
+		<section id="productos-container"></section>
+		<section id="totales">
+			<p>Total unidades: <span id="unidades">0</span></p>
+			<p>Total precio: $<span id="precio">0</span></p>
+			<button id="compra" data-tipo="exito">Comprar</button>
+			<button id="reiniciar">Reiniciar carrito</button>
+		</section>
+	</main>
+	<div class="contenedor-toast" id="contenedor-toast">
+		<div class="toast exito" id="1">
+		</div>
+	</div>
+	<footer>
+		<p>&copy; 2024 FullStack Fusion</p>
+		<p>Todos los derechos reservados.</p>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
